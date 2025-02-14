@@ -8,7 +8,7 @@
 </head>
 <body class="container mt-4">
     <h1 class="mb-4">Form Tambah Data Produk</h1>
-    
+    <p>Tambahkan produk anda dengan mengisi form berikut</p>
     <form action="{{ route('products.store') }}" method="post" class="card p-4 shadow-sm">
         @csrf
         <div class="mb-3">
